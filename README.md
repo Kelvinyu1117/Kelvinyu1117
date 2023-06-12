@@ -8,8 +8,9 @@
 
 #### I'm interested in ...
 * High performance computing
-* Low latency programming
-* Performance optimization
+* Heterogeneous computing (GPU/FPGA)
+* Low latency programming techniques
+* System performance optimization and measurement
 
 #### I'm currently learning ...
 * Rust
