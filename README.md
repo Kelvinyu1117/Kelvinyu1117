@@ -1,5 +1,5 @@
 <p align="center">
-<h3 align="center">Hi there 👋 I'm @Kelvinyu1117, software engineer from Hong Kong</h3> 
+<h3 align="center">Hi there 👋 I'm @Kelvinyu1117, a software engineer from Hong Kong</h3> 
 </p>
 
 #### I speak ...
@@ -7,7 +7,7 @@
 * Python
 
 #### I'm interested in ...
-* High performance computing
+* High-performance computing
 * Heterogeneous computing (GPU/FPGA)
 * Low latency programming techniques
 * System performance optimization and measurement
