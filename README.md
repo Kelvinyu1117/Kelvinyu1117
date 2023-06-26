@@ -17,7 +17,7 @@
 
 #### Statistics
 
-[![Top Langs](https://github-readme-stats-six-ebon.vercel.app/api/top-langs/?username=Kelvinyu1117&theme=nord)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-six-ebon.vercel.app/api/top-langs/?username=Kelvinyu1117&exclude_repo=quantized-neural-network-inference-on-fpga&theme=nord)](https://github.com/anuraghazra/github-readme-stats)
 
 [![Kelvin's GitHub stats](https://github-readme-stats-six-ebon.vercel.app/api?username=Kelvinyu1117&theme=nord)](https://github.com/anuraghazra/github-readme-stats)
 
