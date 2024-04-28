@@ -1,5 +1,5 @@
 <p align="center">
-<h3 align="center">Hi there 👋 I'm @Kelvinyu1117, a software engineer from Hong Kong</h3> 
+<h3 align="center">Hi there 👋 I'm Kelvin, a software engineer from Hong Kong</h3> 
 </p>
 
 #### I speak ...
