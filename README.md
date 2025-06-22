@@ -11,7 +11,11 @@
 * Heterogeneous computing (GPU/FPGA)
 * Low latency programming techniques
 * System performance optimization and measurement
-  
-[![Kelvin's GitHub stats](https://github-readme-stats-six-ebon.vercel.app/api?username=Kelvinyu1117&theme=nord)](https://github.com/anuraghazra/github-readme-stats)
 
-[![GitHub Streak](https://github-readme-streak-stats-plum-nu.vercel.app?user=Kelvinyu1117&theme=nord)](https://git.io/streak-stats)
+<a href="https://github.com/Kelvinyu1117">
+  <img align="center" width="49%" src="./metrics-main.svg" />
+</a>
+
+<a href="https://github.com/Kelvinyu1117">
+  <img align="center" width="49%" src="./metrics-lang-calendar.svg" />
+</a>
