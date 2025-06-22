@@ -1,0 +1,57 @@
+name: Metrics
+on:
+  # Schedule updates (each hour)
+  schedule: [{cron: "0 16 * * *"}]
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  metrics-main:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          user: kelvinwu
+          base: header, activity, community, repositories, metadata
+          filename: metrics-main.svg
+          template: classic
+          repositories: 200
+          repositories_batch: 50
+          base_indepth: yes
+          base_hireable: yes
+          
+  metrics-lang-calendar:
+    runs-on: ubuntu-latest
+    environment: 
+      name: production
+    steps:
+      # See action.yml for all options
+      - uses: lowlighter/metrics@latest
+        with:
+          # Your GitHub token
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+          plugin_languages: yes
+          plugin_languages_ignored: CMake, HTML, CSS, QML, QMake, NSIS, Makefile, PowerShell, NASL
+          plugin_languages_sections: most-used
+          plugin_languages_limit: 8
+          plugin_languages_details: percentage
+          plugin_languages_indepth: yes
+          plugin_languages_analysis_timeout: 30
+          plugin_languages_categories: programming
+
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+          
+          user: kelvinwu
+          base: ''
+          filename: metrics-lang-calendar.svg
+          template: classic
+          repositories: 200
+          repositories_batch: 50
